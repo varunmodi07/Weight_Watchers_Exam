@@ -1,0 +1,8 @@
+
+lsquid:UselessImportCheck"CRemove this unused import 'java.util.concurrent.ThreadLocalRandom'.(¨ÏÙî8©½Êª®,
+Ysquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8®ÃÄª®,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ý«üØ8ýÐ€«®,
+Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8®ÃÄª®,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Û¶½8Ââöª®,
+`squid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8®ÃÄª®,

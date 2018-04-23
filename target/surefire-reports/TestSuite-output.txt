@@ -1,0 +1,5 @@
+Starting ChromeDriver 2.37.544337 (8c0344a12e552148c185f7d5117db1f28d6c9e85) on port 27614
+Only local connections are allowed.
+Apr 22, 2018 1:52:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Starting TEST: Weight Loss Program, Recipes & Help | Weight Watchers

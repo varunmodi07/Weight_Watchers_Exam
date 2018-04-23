@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="remoteurl" value="https://www.weightwatchers.com/us/" />
+  <parameter name="browser" value="chrome" />
+  <parameter name="path" value="dictionary.txt"/>
+    <groups>
+    <define name="full">
+      <include name="One" />
+      <include name="Two" />
+      <include name="Three" />
+    </define>
+    </groups>
+		<packages>
+			<package name="test.java.com.varun.tests.*" />
+		</packages>
+	</test>
+</suite>

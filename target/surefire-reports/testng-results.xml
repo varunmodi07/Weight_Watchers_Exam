@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[>>>>>/Users/ecortes/git/Exam_Varun/src/test/java/com/varun/tests/dictionary.txt]]>
+    </line>
+    <line>
+      <![CDATA[Apple ]]>
+    </line>
+    <line>
+      <![CDATA[ a fruit]]>
+    </line>
+    <line>
+      <![CDATA[ a tech firm]]>
+    </line>
+    <line>
+      <![CDATA[Table ]]>
+    </line>
+    <line>
+      <![CDATA[ an object]]>
+    </line>
+    <line>
+      <![CDATA[ contains rows and columns when used in context of computers]]>
+    </line>
+    <line>
+      <![CDATA[Orange ]]>
+    </line>
+    <line>
+      <![CDATA[ a fruit]]>
+    </line>
+    <line>
+      <![CDATA[Generate 500 random numbers and print the nth smallest number]]>
+    </line>
+    <line>
+      <![CDATA[<br>This is the smallest number of the random generated numbers: <br>25]]>
+    </line>
+    <line>
+      <![CDATA[1.- Navigate to https://www.weightwatchers.com/us/]]>
+    </line>
+    <line>
+      <![CDATA[<br>2.- Verify loaded page title matches Weight Loss Program, Recipes & Help | Weight Watchers]]>
+    </line>
+    <line>
+      <![CDATA[<br>3.- On the right corner of the page, click on Find a Meeting]]>
+    </line>
+    <line>
+      <![CDATA[<br>4.- Verify loaded page title contains Get Schedules & Times Near You]]>
+    </line>
+    <line>
+      <![CDATA[<br>5.- In the search field, search for meetings for zip code: 10011]]>
+    </line>
+    <line>
+      <![CDATA[<br>6.- Print the title of the first result and the distance (located on the right of location title/name)]]>
+    </line>
+    <line>
+      <![CDATA[>>TITLE> WEIGHT WATCHERS STORE 23RD ST-5TH AVE]]>
+    </line>
+    <line>
+      <![CDATA[>>DISTANCE> 0.49 mi.]]>
+    </line>
+    <line>
+      <![CDATA[<br>7.- Click on the first search result and then, verify displayed location name matches with the name of the first searched result that was clicked.]]>
+    </line>
+    <line>
+      <![CDATA[>>TITLE> WEIGHT WATCHERS STORE 23RD ST-5TH AVE]]>
+    </line>
+    <line>
+      <![CDATA[>>>Clicking on the First Result]]>
+    </line>
+    <line>
+      <![CDATA[>>TITLE> WEIGHT WATCHERS STORE 23RD ST-5TH AVE]]>
+    </line>
+    <line>
+      <![CDATA[>>>> Name of the Result Displayed in the loaded Page: WEIGHT WATCHERS STORE 23RD ST-5TH AVE]]>
+    </line>
+    <line>
+      <![CDATA[>>TITLE> WEIGHT WATCHERS STORE 23RD ST-5TH AVE]]>
+    </line>
+    <line>
+      <![CDATA[>>>> Name of the First Title that we clicked on: WEIGHT WATCHERS STORE 23RD ST-5TH AVE]]>
+    </line>
+    <line>
+      <![CDATA[<br>8.- From this location page, print TODAY's hours of operation (located towards the bottom of the page)]]>
+    </line>
+    <line>
+      <![CDATA[>Getting Hours of Operation]]>
+    </line>
+    <line>
+      <![CDATA[<br>Sunday
+10:00 AM  -  1:00 PM
+Monday
+7:45 AM  -  9:15 AM
+12:00 PM  -  2:00 PM
+5:30 PM  -  7:00 PM
+Tuesday
+8:00 AM  -  2:00 PM
+4:45 PM  -  8:00 PM
+Wednesday
+9:30 AM  -  2:00 PM
+5:00 PM  -  8:00 PM
+Thursday
+7:45 AM  -  10:30 AM
+11:45 AM  -  2:00 PM
+4:45 PM  -  8:00 PM
+Friday
+7:45 AM  -  9:30 AM
+11:45 AM  -  2:00 PM
+2:30 PM  -  4:30 PM
+Saturday
+8:00 AM  -  1:00 PM<br>]]>
+    </line>
+    <line>
+      <![CDATA[Finishing Test !]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9676" started-at="2018-04-22T05:52:03Z" finished-at="2018-04-22T05:52:13Z">
+    <groups>
+      <group name="One">
+        <method signature="QuestionOne.testQuestionOne(java.lang.String)[pri:0, instance:test.java.com.varun.tests.QuestionOne@737996a0]" name="testQuestionOne" class="test.java.com.varun.tests.QuestionOne"/>
+      </group> <!-- One -->
+      <group name="Two">
+        <method signature="QuestionTwo.testSecondQuestion()[pri:0, instance:test.java.com.varun.tests.QuestionTwo@50f8360d]" name="testSecondQuestion" class="test.java.com.varun.tests.QuestionTwo"/>
+      </group> <!-- Two -->
+      <group name="Three">
+        <method signature="QuestionThree.testPrintSmallestRandomNumber()[pri:0, instance:test.java.com.varun.tests.QuestionThree@61dc03ce]" name="testPrintSmallestRandomNumber" class="test.java.com.varun.tests.QuestionThree"/>
+      </group> <!-- Three -->
+    </groups>
+    <test name="Test" duration-ms="9676" started-at="2018-04-22T05:52:03Z" finished-at="2018-04-22T05:52:13Z">
+      <class name="test.java.com.varun.tests.QuestionThree">
+        <test-method status="PASS" signature="testPrintSmallestRandomNumber()[pri:0, instance:test.java.com.varun.tests.QuestionThree@61dc03ce]" name="testPrintSmallestRandomNumber" duration-ms="5" started-at="2018-04-22T01:52:03Z" finished-at="2018-04-22T01:52:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Generate 500 random numbers and print the nth smallest number]]>
+            </line>
+            <line>
+              <![CDATA[<br>This is the smallest number of the random generated numbers: <br>25]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPrintSmallestRandomNumber -->
+      </class> <!-- test.java.com.varun.tests.QuestionThree -->
+      <class name="test.java.com.varun.tests.QuestionTwo">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:test.java.com.varun.tests.QuestionTwo@50f8360d]" name="setUp" is-config="true" duration-ms="5249" started-at="2018-04-22T01:52:03Z" finished-at="2018-04-22T01:52:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.weightwatchers.com/us/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[1.- Navigate to https://www.weightwatchers.com/us/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSecondQuestion()[pri:0, instance:test.java.com.varun.tests.QuestionTwo@50f8360d]" name="testSecondQuestion" duration-ms="4243" started-at="2018-04-22T01:52:09Z" finished-at="2018-04-22T01:52:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>2.- Verify loaded page title matches Weight Loss Program, Recipes & Help | Weight Watchers]]>
+            </line>
+            <line>
+              <![CDATA[<br>3.- On the right corner of the page, click on Find a Meeting]]>
+            </line>
+            <line>
+              <![CDATA[<br>4.- Verify loaded page title contains Get Schedules & Times Near You]]>
+            </line>
+            <line>
+              <![CDATA[<br>5.- In the search field, search for meetings for zip code: 10011]]>
+            </line>
+            <line>
+              <![CDATA[<br>6.- Print the title of the first result and the distance (located on the right of location title/name)]]>
+            </line>
+            <line>
+              <![CDATA[>>TITLE> WEIGHT WATCHERS STORE 23RD ST-5TH AVE]]>
+            </line>
+            <line>
+              <![CDATA[>>DISTANCE> 0.49 mi.]]>
+            </line>
+            <line>
+              <![CDATA[<br>7.- Click on the first search result and then, verify displayed location name matches with the name of the first searched result that was clicked.]]>
+            </line>
+            <line>
+              <![CDATA[>>TITLE> WEIGHT WATCHERS STORE 23RD ST-5TH AVE]]>
+            </line>
+            <line>
+              <![CDATA[>>>Clicking on the First Result]]>
+            </line>
+            <line>
+              <![CDATA[>>TITLE> WEIGHT WATCHERS STORE 23RD ST-5TH AVE]]>
+            </line>
+            <line>
+              <![CDATA[>>>> Name of the Result Displayed in the loaded Page: WEIGHT WATCHERS STORE 23RD ST-5TH AVE]]>
+            </line>
+            <line>
+              <![CDATA[>>TITLE> WEIGHT WATCHERS STORE 23RD ST-5TH AVE]]>
+            </line>
+            <line>
+              <![CDATA[>>>> Name of the First Title that we clicked on: WEIGHT WATCHERS STORE 23RD ST-5TH AVE]]>
+            </line>
+            <line>
+              <![CDATA[<br>8.- From this location page, print TODAY's hours of operation (located towards the bottom of the page)]]>
+            </line>
+            <line>
+              <![CDATA[>Getting Hours of Operation]]>
+            </line>
+            <line>
+              <![CDATA[<br>Sunday
+10:00 AM  -  1:00 PM
+Monday
+7:45 AM  -  9:15 AM
+12:00 PM  -  2:00 PM
+5:30 PM  -  7:00 PM
+Tuesday
+8:00 AM  -  2:00 PM
+4:45 PM  -  8:00 PM
+Wednesday
+9:30 AM  -  2:00 PM
+5:00 PM  -  8:00 PM
+Thursday
+7:45 AM  -  10:30 AM
+11:45 AM  -  2:00 PM
+4:45 PM  -  8:00 PM
+Friday
+7:45 AM  -  9:30 AM
+11:45 AM  -  2:00 PM
+2:30 PM  -  4:30 PM
+Saturday
+8:00 AM  -  1:00 PM<br>]]>
+            </line>
+            <line>
+              <![CDATA[Finishing Test !]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSecondQuestion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.java.com.varun.tests.QuestionTwo@50f8360d]" name="tearDown" is-config="true" duration-ms="144" started-at="2018-04-22T01:52:13Z" finished-at="2018-04-22T01:52:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.com.varun.tests.QuestionTwo -->
+      <class name="test.java.com.varun.tests.QuestionOne">
+        <test-method status="PASS" signature="testQuestionOne(java.lang.String)[pri:0, instance:test.java.com.varun.tests.QuestionOne@737996a0]" name="testQuestionOne" duration-ms="11" started-at="2018-04-22T01:52:03Z" finished-at="2018-04-22T01:52:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dictionary.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[>>>>>/Users/ecortes/git/Exam_Varun/src/test/java/com/varun/tests/dictionary.txt]]>
+            </line>
+            <line>
+              <![CDATA[Apple ]]>
+            </line>
+            <line>
+              <![CDATA[ a fruit]]>
+            </line>
+            <line>
+              <![CDATA[ a tech firm]]>
+            </line>
+            <line>
+              <![CDATA[Table ]]>
+            </line>
+            <line>
+              <![CDATA[ an object]]>
+            </line>
+            <line>
+              <![CDATA[ contains rows and columns when used in context of computers]]>
+            </line>
+            <line>
+              <![CDATA[Orange ]]>
+            </line>
+            <line>
+              <![CDATA[ a fruit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testQuestionOne -->
+      </class> <!-- test.java.com.varun.tests.QuestionOne -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,162 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Apr 22 01:52:03 EDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9676 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>One Two Three full </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.java.com.varun.tests.QuestionThree.testPrintSmallestRandomNumber()'><b>testPrintSmallestRandomNumber</b><br>Test class: test.java.com.varun.tests.QuestionThree<br/>
+<a href="#Output-446073433" onClick='toggleBox("Output-446073433", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-446073433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-446073433">
+Generate 500 random numbers and print the nth smallest number<br/>
+<br>This is the smallest number of the random generated numbers: <br>25<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.java.com.varun.tests.QuestionThree@61dc03ce</td></tr>
+<tr>
+<td title='test.java.com.varun.tests.QuestionOne.testQuestionOne()'><b>testQuestionOne</b><br>Test class: test.java.com.varun.tests.QuestionOne<br>Parameters: dictionary.txt<br/>
+<a href="#Output-1122134344" onClick='toggleBox("Output-1122134344", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1122134344" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1122134344">
+>>>>>/Users/ecortes/git/Exam_Varun/src/test/java/com/varun/tests/dictionary.txt<br/>
+Apple <br/>
+ a fruit<br/>
+ a tech firm<br/>
+Table <br/>
+ an object<br/>
+ contains rows and columns when used in context of computers<br/>
+Orange <br/>
+ a fruit<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>test.java.com.varun.tests.QuestionOne@737996a0</td></tr>
+<tr>
+<td title='test.java.com.varun.tests.QuestionTwo.testSecondQuestion()'><b>testSecondQuestion</b><br>Test class: test.java.com.varun.tests.QuestionTwo<br/>
+<a href="#Output-1058609221" onClick='toggleBox("Output-1058609221", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1058609221" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1058609221">
+<br>2.- Verify loaded page title matches Weight Loss Program, Recipes & Help | Weight Watchers<br/>
+<br>3.- On the right corner of the page, click on Find a Meeting<br/>
+<br>4.- Verify loaded page title contains Get Schedules & Times Near You<br/>
+<br>5.- In the search field, search for meetings for zip code: 10011<br/>
+<br>6.- Print the title of the first result and the distance (located on the right of location title/name)<br/>
+>>TITLE> WEIGHT WATCHERS STORE 23RD ST-5TH AVE<br/>
+>>DISTANCE> 0.49 mi.<br/>
+<br>7.- Click on the first search result and then, verify displayed location name matches with the name of the first searched result that was clicked.<br/>
+>>TITLE> WEIGHT WATCHERS STORE 23RD ST-5TH AVE<br/>
+>>>Clicking on the First Result<br/>
+>>TITLE> WEIGHT WATCHERS STORE 23RD ST-5TH AVE<br/>
+>>>> Name of the Result Displayed in the loaded Page: WEIGHT WATCHERS STORE 23RD ST-5TH AVE<br/>
+>>TITLE> WEIGHT WATCHERS STORE 23RD ST-5TH AVE<br/>
+>>>> Name of the First Title that we clicked on: WEIGHT WATCHERS STORE 23RD ST-5TH AVE<br/>
+<br>8.- From this location page, print TODAY's hours of operation (located towards the bottom of the page)<br/>
+>Getting Hours of Operation<br/>
+<br>Sunday
+10:00 AM  -  1:00 PM
+Monday
+7:45 AM  -  9:15 AM
+12:00 PM  -  2:00 PM
+5:30 PM  -  7:00 PM
+Tuesday
+8:00 AM  -  2:00 PM
+4:45 PM  -  8:00 PM
+Wednesday
+9:30 AM  -  2:00 PM
+5:00 PM  -  8:00 PM
+Thursday
+7:45 AM  -  10:30 AM
+11:45 AM  -  2:00 PM
+4:45 PM  -  8:00 PM
+Friday
+7:45 AM  -  9:30 AM
+11:45 AM  -  2:00 PM
+2:30 PM  -  4:30 PM
+Saturday
+8:00 AM  -  1:00 PM<br><br/>
+Finishing Test !<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>test.java.com.varun.tests.QuestionTwo@50f8360d</td></tr>
+</table><p>
+</body>
+</html>
